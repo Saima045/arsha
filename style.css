@@ -81,6 +81,7 @@ main{
     margin:auto;
     position: relative;
 }
+
 .blueline{
     left:50%;
     top:50%;
@@ -89,5 +90,23 @@ main{
     height: 3px;
     background:var(--bs-info);
     position:absolute;
+}
+.headingcolor{
+    color:var(--primary);
+}
+.rowbar{
+    color:var(--primary);
+}
+.barcolor{
+    background: var(--primary);
+}
+.whiterect{
+   // width:23%;
+    height:200px;
+    background:white;
+}
+.callToAction{
+    background: var(--primary);
+    background-image: url("https://themewagon.github.io/arsha/assets/img/cta-bg.jpg");
 }
  
