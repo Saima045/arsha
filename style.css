@@ -102,11 +102,29 @@ main{
 }
 .whiterect{
    // width:23%;
-    height:200px;
+   // height:200px;
     background:white;
 }
 .callToAction{
     background: var(--primary);
     background-image: url("https://themewagon.github.io/arsha/assets/img/cta-bg.jpg");
 }
- 
+.cardwhite{
+    transition: all 1s;
+} 
+
+.whiterect:hover{
+    
+}
+.callActionBg{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("https://themewagon.github.io/arsha/assets/img/cta-bg.jpg") fixed center center;
+    background-size: cover;
+    //padding: 120px 0;
+}
+.roundclass{
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+    background: blue;
+    font-size: large;
+}
