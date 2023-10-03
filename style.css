@@ -1,4 +1,4 @@
-*{
+{{*{
     margin: 0;
     padding: 0;
 }
@@ -127,4 +127,116 @@ main{
     border-radius: 50%;
     background: blue;
     font-size: large;
+}
+.socialCircle{
+    width: 30px;
+    height: 30px;
+    background-color: #F3F5FA;
+    transition: all 1s;
+    cursor: pointer;
+    color:var(--primary);
+    
+
+}
+.socialCircle:hover{
+    background-color:#47B2E4;
+    color:white;
+
+}
+.socialBg
+{
+  //  color:var(--primary);
+  
+}
+.cardTeam{
+   
+    transition: all 1s;
+}
+.cardTeam:hover{
+   // background: red;
+   transform: translateY(-8px);
+}
+.iconcolor{
+    color:#88CDEE;
+}
+
+
+
+.serviceheading:hover{
+    color:#88CDEE;
+
+}
+
+.cardServ{
+    transition: all 1s;
+  //  cursor: pointer;
+}
+
+.cardServ:hover{
+
+    transform: translateY(-10px);
+
+}
+.faqAcc{
+ 
+   
+}
+
+
+.faqAcc:focus{
+    background-color:white;
+    border: none;
+    outline: none;
+   // border-color: red;
+
+}
+.accordion-button:focus {
+    //background: red;
+    box-shadow: none; !important
+    border-color: rgba(0,0,0,.125);  !important
+}
+.accordion-button{
+
+
+   // background:red;
+   color:var(--primary);
+    border: none;important
+    outline: none;important
+    box-shadow: none; !important
+ 
+
+
+}
+
+.accordion-item
+{
+ //   background: #37517E;
+    border: none; !important
+    outline: none; !important
+    box-shadow: none; !important
+
+}
+
+.accordion-button:not(.collapsed){
+   background:white;!important;
+   border: none; !important
+   outline: none; !important
+   box-shadow: none; !important
+   margin: 0;!important
+   padding: 0;!important
+}
+
+.accordion .card {
+    border: none; /* Remove the card border to eliminate spacing */
+}
+.accordion .card-header {
+    padding: 0; /* Remove padding to eliminate spacing */
+}
+
+.contactCardCir{
+
+    width: 30px;
+    height: 30px;
+    background-color: #F3F5FA;
+    border-radius: 50%;
 }
