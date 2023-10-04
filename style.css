@@ -1,4 +1,4 @@
-{{*{
+*{
     margin: 0;
     padding: 0;
 }
@@ -235,8 +235,38 @@ main{
 
 .contactCardCir{
 
+    width: 40px;
+    height: 40px;
+    background-color:#E7F5FB;
+    transition:all 1s;
+    
+    color:#00B4FF;
+  
+}
+.contactCardCir:hover{
+    background-color:#00B4FF;
+    color:white;
+
+}
+.ContactCardborder{
+    //background-color: red;
+    border-color:green;!important
+    border-radius:20px;
+}
+.contact 
+{
+    border: 5px solid #00B4FF;    
+}
+
+.socialCircleFoot{
+
     width: 30px;
     height: 30px;
-    background-color: #F3F5FA;
-    border-radius: 50%;
+    background-color: #00B4FF;
+    
+    color:white;
+
+}
+.bottomFoot{
+    background: var(--primary);
 }
